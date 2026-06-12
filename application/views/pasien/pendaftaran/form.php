@@ -215,7 +215,7 @@ Daftar Sekarang
 
 background:linear-gradient(
 135deg,
-#008c4b,
+#00572e,
 #00ffb3
 );
 
