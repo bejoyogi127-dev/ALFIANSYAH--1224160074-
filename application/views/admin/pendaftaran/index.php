@@ -104,7 +104,7 @@ Daftar Pendaftaran RS AZ-ZAHRA
 
 <i class="fas fa-clock text-warning mr-1"></i>
 
-<?= $p->jam_kunjungan; ?>
+<?= date('H:i', strtotime($p->jam_kunjungan)); ?>
 
 </td>
 

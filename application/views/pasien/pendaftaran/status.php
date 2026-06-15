@@ -99,7 +99,7 @@ text-primary mr-1"></i>
 <i class="fas fa-clock
 text-warning mr-1"></i>
 
-<?= $s->jam_kunjungan; ?>
+<?= date('H:i', strtotime($s->jam_kunjungan)); ?>
 
 </td>
 
